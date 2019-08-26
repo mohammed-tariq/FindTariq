@@ -1,0 +1,221 @@
+
+html, body{
+	background-color:#e6e6e6;
+/*background: url("bg3.jpg") no-repeat center center fixed; 
+background-image-opacity:0.5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+*/ 
+/*background-image: linear-gradient(to right, blue , green); */
+font-family:"raleway";
+margin:0;
+padding:0;
+height:100%;
+font-size:16px;
+
+}
+.navbar{
+	font-size:16px;
+	background: #1B242F;
+	position:sticky;
+	opacity:0.92;
+	top:0;
+	z-index:1;
+}
+
+#info{
+	color:#008ae6;
+	text-shadow: 1px 1px 2px #000000;
+	text-decoration:bold;
+	text-align:center;
+	font-size:22px;
+	font-family:"Bookman";
+	font-style:italic;
+	padding-top:20px;
+	margin-bottom:40px;
+	margin:auto;
+	width:70%;
+	transition-property:width, font-weight;
+	transition-duration:1.5s;
+	background-color:#ccccff;
+}
+
+#info:hover{
+	width:100%;
+	font-weight:bold;
+	
+	
+}
+
+hr{
+	border: 1px solid #2d2d86;
+	opacity:0.6;
+}
+#me{
+	display:block;
+	text-align:center;
+	position:relative;
+	float:right;
+	margin:50px 150px 100px 50px;
+	width:300px;
+	height:250px;
+	
+
+} 
+
+.overlay {
+  position: absolute;
+  margin:0;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+#me:hover .overlay {
+  opacity: 0.8;
+}
+
+
+.text {
+  color: white;
+  font-size: 18px;
+  font-style:italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.image{
+	border-radius: 50%;
+	box-shadow: 10px 5px 5px grey;
+}
+
+.main{
+	min-height:100%;
+
+	position:relative;
+}
+
+
+.content{
+	margin:20px;
+	/*color:#b3ffff;*/
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size:18px;
+	
+	
+}
+
+
+
+.heading{
+	color:#008ae6;
+	font-family:"Helvetica","verdana";
+	text-shadow: 1px 1px 2px #000000;
+	
+}
+.heading:hover{
+	text-shadow: 2px 2px 3px #000000;
+}
+
+.skill{
+	margin-bottom:15px;
+	padding-bottom:15px;
+}
+
+.skill img{
+	background-color:#484747;
+	padding:20px;
+	margin:35px;
+
+}
+#more{
+	display: none;
+	}
+	
+#shwmore{
+	font-size:12px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#shwmore:hover {
+  background-color:#ccccb3; 
+  color:white;
+}	
+
+
+
+#info hr , .train hr , .skill hr {
+	width:40%;
+}
+
+.skill h2 , .train h2 {
+text-align:center;
+}
+
+
+.pages a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+.pages a:hover {
+  background-color: black;
+  color: #008ae6;
+}
+
+.previous {
+  background-color: #1B242F;
+  color: #008ae6;
+}
+
+.next {
+  background-color: #1B242F;
+  color: #008ae6;
+}
+
+
+#CV{
+	text-align:center;
+	margin:auto;
+	background-color:#ccccff;
+	width:25%;
+}
+.footer {
+	background: #1B242F;
+	position:relative;
+	bottom:0px;
+    width: 100%; 
+	clear:both;
+    text-align:center;
+}
+
+  footer .footnote {
+	  text-align:center;
+	  background: #1B242F;
+    font-size: 10pt;
+    color: #8F9AA7;
+    opacity: 0.6; }
+	
+    footer .footnote .highlight {
+		margin:0px;
+		padding:0px;
+      font-family: 'Open Sans';
+      color: #E31B6D; 
+	}
+	
+
+	
