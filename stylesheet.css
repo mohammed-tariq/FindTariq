@@ -58,12 +58,14 @@ hr{
 	border: 1px solid #2d2d86;
 	opacity:0.6;
 }
+
+
 #me{
 	display:block;
 	text-align:center;
 	position:relative;
 	float:right;
-	margin:50px 150px 100px 150px;
+	margin:100px 100px 100px 100px;
 	width:300px;
 	height:250px;
 	
