@@ -33,7 +33,7 @@ font-size:16px;
 	font-size:22px;
 	font-family:"Bookman";
 	font-style:italic;
-	padding:20px;
+	padding-top:20px;
 	margin-bottom:40px;
 	margin:auto;
 	width:70%;
@@ -47,7 +47,7 @@ font-size:16px;
 	font-weight:bold;
 	
 }
-@media (max-width:300px)
+@media (max-width:500px)
 {
 	#info{
 		background-color:#e6e6e6;
