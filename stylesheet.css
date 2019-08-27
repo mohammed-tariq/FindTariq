@@ -109,7 +109,7 @@ hr{
 	position:relative;
 }
 
-@media (max-width:480px)
+@media (max-width:450px)
 {
 	#info{
 		background-color:#e6e6e6;
