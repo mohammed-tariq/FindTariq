@@ -114,6 +114,12 @@ hr{
 	#info{
 		background-color:#e6e6e6;
 	}
+	#me img{
+		margin-left:20%;
+	}
+	#me .overlay{
+		margin-left:20%;
+	}
 }
 
 .content{
