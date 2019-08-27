@@ -52,6 +52,9 @@ font-size:16px;
 	#info{
 		background-color:#e6e6e6;
 	}
+	#me{
+		margin-left:30px;
+	}
 }
 
 hr{
@@ -66,8 +69,8 @@ hr{
 	position:relative;
 	float:right;
 	margin:100px 100px 100px 100px;
-	width:300px;
-	height:250px;
+	width:350px;
+	height:350px;
 	
 
 } 
